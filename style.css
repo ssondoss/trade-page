@@ -1,0 +1,52 @@
+html,
+body {
+  font-family: "Times New Roman", Times, serif !important;
+}
+.bg-img {
+  position: relative;
+  background-image: url(images/bg.png);
+  background-color: #cccccc;
+  height: 670px;
+  width: 380px;
+  margin: auto;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.clip {
+  clip-path: circle(49.9% at 50% -14%);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 670px;
+  width: 380px;
+  z-index: 9999 !important;
+  background-color: #b49635;
+}
+.header-div {
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  z-index: 99999999;
+  top: 0%;
+}
+.inner-logo {
+  background-color: #04363d;
+}
+.bg-yellow {
+  background-color: #b49635;
+  height: 250px;
+  width: 100%;
+}
+.text-yellow {
+  color: #b49635;
+}
+.icon-size {
+  font-size: 38px !important;
+}
+.shadow {
+  box-shadow: 0 0 15px 8px #4141418a !important;
+}
